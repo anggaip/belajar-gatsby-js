@@ -6,5 +6,8 @@ module.exports = {
     title: `Belajar Gatsby JS`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
